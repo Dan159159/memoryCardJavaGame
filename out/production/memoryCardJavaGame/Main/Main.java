@@ -1,23 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Main;
+package main;
 
-import Frame.Principal;
+import frame.Pantalla;
 
-/**
- *
- * @author MSBENAVIDES
- */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static <String> void main(String[] args) {
-        Principal start = new Principal();
+    public static void main(String[] args) {
+        Pantalla start = new Pantalla();
         start.setVisible(true);
     }
 }
